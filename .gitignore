@@ -1,0 +1,51 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editor folders (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Distribution and packaging
+*.egg-info/
+dist/
+build/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Coverage reports
+.coverage
+*.cover
+
+# Python wheel files
+*.whl
+
+# Pylint reports
+pylint-report.txt
+
+# Cython build directory
+cython_debug/
+
+# Local configuration files
+*.env
+*.env.*
+
+# Docker
+.docker/
+docker-compose.override.yml
