@@ -37,7 +37,7 @@ jobs:
           CHANGED_FILES=$(cat changed_files.txt)
           if [ -n "$CHANGED_FILES" ]; then
             echo Running Flake8 linter...
-            flake8 $CHANGED_FILES
+            flake8 --max-line-length=79 --statistics $CHANGED_FILES
           else
             echo No Python files changed.
             exit 0
